@@ -45,6 +45,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Temporary */
+/* body {
+  background: hsl(220deg 20% 80%);
+} */
 
 
 /* GLOBAL STYLES */
