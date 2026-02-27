@@ -88,7 +88,7 @@ const Image = styled.img`
   filter: brightness(90%);
   transform-origin: 50% 75%;
   will-change: transform;
-  transition: transform 600ms, filter 1000ms;
+  transition: transform 750ms, filter 1000ms;
 
   /* If they are using a device that has hover capability 
   and they are not reducing motion, then these animation 
@@ -97,9 +97,9 @@ const Image = styled.img`
   @media (hover:hover) and (prefers-reduced-motion: no-preference) {
     ${Link}:hover &,
     ${Link}:focus & {
-      transform: scale(1.5) rotate(20deg);
+      transform: scale(1.1);
       filter: brightness(100%);
-      transition: transform 200ms, filter 200ms;
+      transition: transform 500ms, filter 200ms;
     }
   }
 `;
